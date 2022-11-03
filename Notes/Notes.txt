@@ -1,1 +1,4 @@
-Hello
+JavaScript is Dynamic, Interpreted and Weakly Typed Language compiled at Runtime.
+It can run on Browser or directly on any Machine(Host Environment) 
+JS was initially created to make webpages more dynamic
+
