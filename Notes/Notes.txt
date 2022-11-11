@@ -11,11 +11,20 @@ DATA TYPES -
 Numbers, Strings
 Convert html input to a number using parseInt(input) OR +input 
 Convert to string by toString()
-
+3 + 3 = 6
+3 + '3' = 33
+'hi' - '3' = NaN. Only + supports string and numbers
+3 * '3' = 9
+'3' - 1 = 2
 
 FUNCTIONS -
 Shadowing means same variable in different scope. Example, same variable name created in function and global
 addEventListener for event handling, indirectly calls function on event
 
 
-LECTURE 29
+
+
+
+
+Build Calculator
+LECTURE 40
