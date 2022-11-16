@@ -31,6 +31,11 @@ FUNCTIONS -
 Shadowing means same variable in different scope. Example, same variable name created in function and global
 addEventListener for event handling, indirectly calls function on event
 
+Defer vs Async script import(for external script imports) -
+If we give script in head tag, scripts are loaded/downloaded and executed in sequence(not parallel to parsing), then remaining parsing is done. This could give console error since html is not parsed/ready.
+If we give script at end of body tag, then html is parsed first then script is loaded and executed.
+defer   -   Scripts are in head tag. Load scripts parallel to html parsing, executes them after parsing
+async   -   Scripts are in head tag. Load scripts parallel to html parsing, executes them right away, the script loaded first is executed first. Then remaining parsing is done.
 
 
 
@@ -38,4 +43,4 @@ addEventListener for event handling, indirectly calls function on event
 
 Build Calculator
 Resume Builder
-LECTURE 50
+LECTURE 55
