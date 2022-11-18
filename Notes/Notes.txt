@@ -58,7 +58,8 @@
 
 
 4) CONTROL_STRUCTURES
-    
+    if, else, else-if Statements    - Resolve to true/false
+                                      Note that Comparing Objects or Array give false. Checks hash value 
 
 
 
@@ -68,4 +69,5 @@
 
 Build Calculator
 Resume Builder
-LECTURE 73
+LECTURE 80
+Download Code and resources at end of course
