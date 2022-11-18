@@ -1,3 +1,4 @@
+MDN is its documentation
 JavaScript is Dynamic, Interpreted and Weakly Typed Language compiled at Runtime.
 It can run on Browser or directly on any Machine(Host Environment) 
 JS was initially created to make webpages more dynamic
@@ -39,8 +40,22 @@ async   -   Scripts are in head tag. Load scripts parallel to html parsing, exec
 
 
 
+VS CODE PREFERENCES -
+Shortcuts 
+Extensions - Prettier
+Settings
+
+DEBUGGING -
+Console.log      - Use console.log()
+Browser Devtools - Breakpoints, Conditional Breakpoints, Event Listener Breakpoints, 
+                   F9, Scope(Value, can be changed), Watch(Watch any Value changing over time)
+                   Code in sources can be change temporarily
+Inside VsCode    - Debugger for Chrome extension. Click of left of line number for breakpoint, then Debug -> Run Debugger
+
+
+
 
 
 Build Calculator
 Resume Builder
-LECTURE 55
+LECTURE 73
