@@ -58,8 +58,15 @@
 
 
 4) CONTROL_STRUCTURES
-    if, else, else-if Statements    - Resolve to true/false
-                                      Note that Comparing Objects or Array give false. Checks hash value 
+    if, else, else-if Statements    -   Resolve to true/false
+                                        Note that Comparing Objects or Array give false. Checks hash value 
+    Operator Precedence -   Check on MDN documentation
+                            && has higher precedence than ||
+    Falsy/Truthy value (Coercion)   -   var name = 'Akash'; if(name){ // true }
+                                        if(0) = false. Other numbers = true.
+                                        if('') = false. Other string if('hello') = true.
+                                        if({}) = true, if([]) = true.
+                                        null, undefined, NaN = false
 
 
 
@@ -69,5 +76,5 @@
 
 Build Calculator
 Resume Builder
-LECTURE 80
+LECTURE 83
 Download Code and resources at end of course
