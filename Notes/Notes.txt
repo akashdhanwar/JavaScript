@@ -58,11 +58,11 @@
 
 
 4) CONTROL_STRUCTURES -
-    if, else, else-if Statements    -   Resolve to true/false
-                                        Note that Comparing Objects or Array give false. Checks hash value 
-                                        Operator Precedence -   Check on MDN documentation
-                                                                && has higher precedence than ||
-                                        Falsy/Truthy value (Coercion)   -   var name = 'Akash'; if(name){ // true }
+    Conditional Statements          -   if, else, else-if Statements    -   Resolve to true/false (Lec-73,74,75,76,77)
+                                                                            Note that Comparing Objects or Array give false. Checks hash value (Lec-78)
+    Boolean Values and Operators    -   Operator Precedence             -   Check on MDN documentation (Lec-80)
+                                                                            && has higher precedence than || (Lec-79)
+                                        Falsy/Truthy value (Coercion)   -   var name = 'Akash'; if(name){ // true } (Lec-81,82)
                                                                             if(0) = false. Other numbers = true.
                                                                             if('') = false. Other string if('hello') = true.
                                                                             if({}) = true, if([]) = true.
@@ -91,9 +91,10 @@
                                         try-catch(Lec-108)                  -   try{ Error Prone Code } catch(){ Handling code } finally{ Cleanup Work }
 
 
-5) BEHIND THE SCENES -
-
-
+5) BEHIND THE SCENES ES3, ES5 ES6 -
+    ES5 vs ES6+ Syntax              -   
+    How Javascript works            -   
+    The Wierd Parts                 -   
 
 
 
