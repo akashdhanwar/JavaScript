@@ -7,9 +7,6 @@
 
 2) BASICS -
     VARIABLES - Letter, Digit, $, _ are allowed. Starting with digits not allowed
-    let     -   Hoisting dont work, Block scope
-    var     -   Hoisting works
-    const   -   
 
     DATA_TYPES -
     Numbers, Strings, Booleans(true/false), Objects, Arrays, undefined(default value of uninitialized variables) , null(not a default value)
@@ -89,19 +86,21 @@
                                                                                 }
     Error Handling(Lec-106)         -   Throwing errors manually(Lec-107)   -   if(isNan("Hello")){ throw {message: 'Error'}; }
                                         try-catch(Lec-108)                  -   try{ Error Prone Code } catch(){ Handling code } finally{ Cleanup Work }
+    Wrap-Up(Lec-109,110)
 
 
-5) BEHIND THE SCENES ES3, ES5 ES6 -
-    ES5 vs ES6+ Syntax              -   
+5) BEHIND THE SCENES ES3, ES5 ES6 (Lec-111) -
+    ES5 vs ES6+ Syntax(Lec-112)     -   let and const introduced in ES6
+                                        var     -   Function & Global Scope, Hoisting allowed. Can be recreated in same scope
+                                        let     -   Block Scope 
+                                        const   -   Block Scope
     How Javascript works            -   
     The Wierd Parts                 -   
 
 
 
 
-LECTURE 111
+LECTURE 114
 Build Calculator with logs
 Resume Builder
 Download Code and resources at end of course
-
-Interview Lines - 86(Labelled Statements)
