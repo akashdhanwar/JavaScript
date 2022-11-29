@@ -57,7 +57,7 @@
     Inside VsCode    - Debugger for Chrome extension. Click of left of line number for breakpoint, then Debug -> Run Debugger
 
 
-4) CONTROL_STRUCTURES
+4) CONTROL_STRUCTURES -
     if, else, else-if Statements    -   Resolve to true/false
                                         Note that Comparing Objects or Array give false. Checks hash value 
     Operator Precedence -   Check on MDN documentation
@@ -67,14 +67,36 @@
                                         if('') = false. Other string if('hello') = true.
                                         if({}) = true, if([]) = true.
                                         null, undefined, NaN = false
+    Ternary Operator(Lec-93)        -   a==10 ? A : B
+    Expression vs Statements(Lec-94)-   Expression yeilds value that can be stored
+                                        Statements do not yield value, all Expressions are Statements 
+    Tricks(Lec-95)                  -   !!1 = true, !!"" = false
+                                        let name = "" || "Max" - This will store Max in name 
+                                        let name = "Don" || "Max" - This will store Don in name 
+                                        let name = "" || "" - This will store """ in name 
+                                        let name = "" && "Don" - This will return ""
+                                        let name = "Max" && "Don" - This will return Don
+                                        Note -> ===, > just generate new boolean values which are used in the comparison. || and && generate NO booleans (Lec-96)
+    switch case(Lec-97)   
+    Loops(Lec-98)                   -   for Loop(Lec-99)                
+                                        for-of Loop(Lec-100)            -   For every element in an array. for(const el of array){ console.log(el) }. No access to the index
+                                        for-in Loop(Lec-101)            -   For every key in the object. for(const key in object){ console.log(key) }
+                                        while, do-while Loop(Lec-102)   -   Until the condition is false
+                                        break, continue(Lec-103,104)
+                                        Labelled Statements(Lec-105)    -   Relate some code from some other place
+                                                                            outerLoop : for(let i=0;i<3;i++){
+                                                                                for(let j=0;j<3;j++){ break outerLoop; }
+                                                                            }
+    Error Handling(Lec-106)         -   
 
 
 
 
 
 
-
-Build Calculator
+LECTURE 106
+Build Calculator with logs
 Resume Builder
-LECTURE 83
 Download Code and resources at end of course
+
+Interview Lines - 86(Labelled Statements)
