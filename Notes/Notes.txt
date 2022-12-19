@@ -90,17 +90,20 @@
 
 
 5) BEHIND THE SCENES ES3, ES5 ES6 (Lec-111) -
-    ES5 vs ES6+ Syntax(Lec-112)     -   let and const introduced in ES6
-                                        var     -   Function & Global Scope, Hoisting allowed. Can be recreated in same scope
-                                        let     -   Block Scope 
-                                        const   -   Block Scope
+    ES5 vs ES6+ Syntax(Lec-112)     -   let and const introduced in ES6 (Lec-113)
+                                            var     -   Function & Global Scope, Hoisting allowed. Can be recreated in same scope
+                                            let     -   Block Scope 
+                                            const   -   Block Scope
+                                        Hoisting for var (Lec-114)
+                                        "use strict"; at start of file or in a function to enable strict mode(for strict declare var name instead of name) (Lec-115)
     How Javascript works            -   
     The Wierd Parts                 -   
 
 
 
 
-LECTURE 114
+LECTURE 116
 Build Calculator with logs
 Resume Builder
+Money Saver 
 Download Code and resources at end of course
