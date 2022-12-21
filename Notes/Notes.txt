@@ -1,9 +1,16 @@
 1) INTRODUCTION -
-    MDN is its documentation
-    JavaScript is Dynamic, Interpreted and Weakly Typed Language compiled at Runtime.
-    It can run on Browser or directly on any Machine(Host Environment) 
-    JS was initially created to make webpages more dynamic
-
+    (Lec-1) Introduction
+    (Lec-2) What is Javascript 
+            JavaScript is Dynamic, Interpreted and Weakly Typed Language compiled at Runtime.
+            It can run on Browser or directly on any Machine(Host Environment) 
+            JS was initially created to make webpages more dynamic
+            MDN is its documentation
+    (Lec-3) Javascript in Action
+            Simple Example
+    (Lec-4) Learning Community Link/File
+    (Lec-5) How Javascript is Executed
+    (Lec-6) Dynamic vs Weakly Typed Languages 
+            
 
 2) BASICS -
     VARIABLES - Letter, Digit, $, _ are allowed. Starting with digits not allowed
@@ -96,13 +103,29 @@
                                             const   -   Block Scope
                                         Hoisting for var (Lec-114)
                                         "use strict"; at start of file or in a function to enable strict mode(for strict declare var name instead of name) (Lec-115)
-    How Javascript works            -   
-    The Wierd Parts                 -   
+    How Javascript works            -   In Browser, Interpreter parses code and handovers the bytecode to Compiler. Compiler converts to machine code and runs on Computer (Lec-116)
+                                        (Lec-117,118) Browser manages Heap and Stack - Can be checked by adding breakpoints
+                                        Heap(Memory Allocation) - Stores data in your system memory and manages access to it. 
+                                        Stack(Execution Context) - Manages your program flow(function calls and communication). Stack controls which thing is happening, since Javascript is single-threaded.
+                                        Note that the Event Loop(listeners) will work even after stack is emptied(Later in this course). It is in the Browser and not in Javascript Engine
+                                        (Lec-119) Primitives vs Reference values
+                                        Primitive Values -  String, Numbers, Boolean, null, undefined, Symbol
+                                                            Stored on memory(normally on Stack)
+                                                            = copies the value to different variable, copied by Value
+                                        Reference Values -  All other Objects 
+                                                            Stored on memory(Heap), variable stores the pointer to address
+                                                            Copying copies the address and not the value, copied by Reference
+                                                            Can be copied by Value using Rest operator
+                                        (Lec-120) Garbage Collection
+                                        How is Heap memory managed - Garbage Collector V8 in Chrome. 
+                                        It checks unused/empty objects(objects without references) and clears them.
+                                        Memory Leaks are objects which have reference but not in use.
+                                        (Lec121,122) Wrapup
 
 
 
 
-LECTURE 116
+LECTURE 117
 Build Calculator with logs
 Resume Builder
 Money Saver 
