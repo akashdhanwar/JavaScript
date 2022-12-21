@@ -51,9 +51,22 @@
                                                 Security
                                                 Deployment
                                                 Performance Optimization & Memory Leaks
+    (Lec-9) How to get the most out of this course 
+    (Lec-10) Using Course Resources (Text File)
+    (Lec-11) Javascript vs Java 
+    (Lec-12) A Brief History of Javascript 
+    (Lec-13) Setting up Development Environment 
+            Setup Extensions, Learn shortcuts
+    (Lec-14) Course FAQ's
 
 
-2) BASICS -
+2) BASICS: Variables, Data Types, Operators and Functions-
+    (Lec-15) Introduction
+            Dive Into Core Syntax
+            Understanding Variables & Data Types
+            Working with Operators
+            Explore and Use Functions
+    (Lec-16) Setting up the Project 
     VARIABLES - Letter, Digit, $, _ are allowed. Starting with digits not allowed
 
     DATA_TYPES -
