@@ -7,7 +7,7 @@
             MDN is its documentation
     (Lec-3) Javascript in Action
             Simple Example
-    (Lec-4) Learning Community Link/File
+    (Lec-4) Learning Community Link (Text File)
             Discord: https://academind.com/community/
     (Lec-5) How Javascript is Executed
             Javascript Engine(V8 Chrome) - Parse, compile and executes the code on a single thread
@@ -57,7 +57,7 @@
     (Lec-12) A Brief History of Javascript 
     (Lec-13) Setting up Development Environment 
             Setup Extensions, Learn shortcuts
-    (Lec-14) Course FAQ's
+    (Lec-14) Course FAQ's (Text File)
 
 
 2) BASICS: Variables, Data Types, Operators and Functions-
@@ -66,12 +66,29 @@
             Understanding Variables & Data Types
             Working with Operators
             Explore and Use Functions
-    (Lec-16) Setting up the Project 
-    VARIABLES - Letter, Digit, $, _ are allowed. Starting with digits not allowed
+    (Lec-16) Setting up the Project (Calculator)
+    (Lec-17) More on Version Control & Git(Text File)
+    (Lec-18) Adding Javascript to the website
+            Script tag in head tag. Either the code in tag or the src url
+            Script tag with src at end of body 
+    (Lec-19) Introducing Variables & Constants
+    (Lec-20) Declaring & Defining Variables
+            Letter, Digit, $, _ are allowed. Starting with digits not allowed
+    (Lec-21) Working with Variables & Operators
+            + , - , * , / , % , **
+            = , += , -= , *- , /=
+            ++ , --
+    (Lec-22) Understanding the Starting Code (Calcultor)
+    (Lec-23) Data Types: Numbers & Strings
+            Numbers, Strings, Booleans(true/false), Objects, Arrays, undefined(default value of uninitialized variables) , null(not a default value)
+            Nan(This is not a data type, mathematical calculation result)
+    (Lec-24) Using Constants
+    (Lec-25) More on Strings
+            Template Literal `` - ${name} for mapping value in string literal, can be multiline
+            Escape Characters - \n, \t, etc
+    (Lec-26)
 
-    DATA_TYPES -
-    Numbers, Strings, Booleans(true/false), Objects, Arrays, undefined(default value of uninitialized variables) , null(not a default value)
-    Nan(This is not a data type, mathematical calculation result)
+
     Conversion -
         Convert html input to a number using parseInt(input) OR +input 
         Convert to string by toString()
@@ -81,10 +98,6 @@
         3 * '3' = 9
         '3' - 1 = 2
 
-    OPERATORS -
-        + , - , * , / , % , **
-        = , += , -= , *- , /=
-        ++ , --
         typeof hello = 'function'
         typeof null = 'object'
         typeof undefined = 'undefined'
@@ -176,6 +189,24 @@
                                         Memory Leaks are objects which have reference but not in use.
                                         (Lec121,122) Wrapup
 
+6) CLOSER LOOK AT FUNCTIONS
+    (Lec-123) Introduction 
+            Different ways of creating functions
+            Anonymous Functions 
+            Callback functions & Functions in functions
+            Default Arguments & Rest Operator
+            bind() & more built-in functions
+    (Lec-124) Recap Function Knowledge - What we know thus far 
+            Functions are "Code on demand"
+    (Lec-125) Parameters vs Arguments 
+            Parameters are defined in function parenthesis
+            Arguments are those values which we pass to the function 
+    (Lec-126) Functions vs Methods
+            Functions are normal created functions. eg- function hello(){}
+            Methods are functions that are defined in some object value. eg- {age: function greet(){}}. Generally predefined like addEventListener
+    (Lec-127) Functions are Objects
+    (Lec-128) Function Expressions: Storing Functions in Variables 
+            
 
 
 
