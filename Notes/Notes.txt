@@ -8,9 +8,50 @@
     (Lec-3) Javascript in Action
             Simple Example
     (Lec-4) Learning Community Link/File
+            Discord: https://academind.com/community/
     (Lec-5) How Javascript is Executed
+            Javascript Engine(V8 Chrome) - Parse, compile and executes the code on a single thread
     (Lec-6) Dynamic vs Weakly Typed Languages 
-            
+            Dynamic      -  Code is not pre-compiled like in C++. 
+                            Evaluated and executed at runtime
+                            Code can change at runtime(eg. type of a variable)
+            Weakly Typed -  Data types are assumed autmatically, no need to specify
+    (Lec-7) Javascript executes in a Host Environment
+            Browser-side or Server-side
+            Browser-side -  Cannot access file system or interact with operating system
+                            Can access Html Css 
+            Server-Side -   V8 is run on Server in Nodejs. 
+                            It can access file system but cant manipulate Html Css
+    (Lec-8) What's in this course
+            Core Basics                     -   Getting started 
+                                                Language Basics
+                                                Base Syntax Efficient Development & Debugging
+                                                Control Structures(if, Loops,...)
+                                                Behind the scenes of JS 
+                                                Closer look at Functions 
+                                                DOM Basics 
+                                                Array & Iterable 
+                                                Objects
+            Building a Strong Foundation    -   Classes & OOPS 
+                                                Constructor Function & Prototypes 
+                                                More about DOM & Browser API 
+                                                Events
+                                                Functions Deep Dive
+                                                More about Numbers and Strings
+                                                Asynchronous Code
+                                                Background Http(Ajax)
+            Advanced Concepts               -   3rd Party Libraries
+                                                Javascript Modules
+                                                Tooling(Webpack, Babel,...)
+                                                Working with Browser Storage
+                                                Browser Support 
+                                                Javascript Frameworks
+                                                Meta Programming 
+                                                Nodejs Introduction 
+                                                Security
+                                                Deployment
+                                                Performance Optimization & Memory Leaks
+
 
 2) BASICS -
     VARIABLES - Letter, Digit, $, _ are allowed. Starting with digits not allowed
