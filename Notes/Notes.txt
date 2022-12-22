@@ -205,13 +205,52 @@
             Functions are normal created functions. eg- function hello(){}
             Methods are functions that are defined in some object value. eg- {age: function greet(){}}. Generally predefined like addEventListener
     (Lec-127) Functions are Objects
+            Special type of Object with predefined properties, check by printing function
     (Lec-128) Function Expressions: Storing Functions in Variables 
-            
+    (Lec-129) Function Expressions vs Function Declarations
+            Function Declaration -  Not storing in variable. Hoisted to top. 
+                                    No need to define function before we call them
+            Function Expression  -  Storing function in variable. Hoisted to top. 
+                                    Need to define function before we call them
+    (Lec-130) Anonymous Functions 
+            Function without name, only one place usage
+            Name to function can be given for debugging
+    (Lec-131) Working on the Project: Adding User Choices to the game(Stone Paper Scissor)
+    (Lec-132) Implementing the core game logic
+    (Lec-133) Introducing Arrow Functions
+            Syntactical Sugar
+    (Lec-134) Arroy Function Syntax (Text File)
+    (Lec-135) Outputting Game Messages to the User 
+    (Lec-136) Default Arguments in Functions
+            In case undefined is passed, function will take default value in this case only
+    (Lec-137) Introducing Rest Operator
+            For passing dynamic number of arguments to a function, it creates an array of it. function abc(...arg){}
+            Rest parameter must be only one and must be last parameter
+            Interview - arguments is available in function defined with function keyword if we do not define parameters
+    (Lec-138) Creating Functions inside Functions   
+    (Lec-139) Understanding Callback Functions 
+            Asynchronous Function calls returns a callback in future
+    (Lec-140) Working with 'bind()'
+            It prepares the function for execution in some time 
+            Used to pre-configure a functions argument
+            It takes (this, arguments)
+            The arguments passed in function call will be appended as the last parameter
+    (Lec-141) Adding bind() to Calculator Project
+    (Lec-142) call() & apply()
+            call() and apply() immidiately executes the function but bind() dont 
+    (Lec-143) Wrapup
+    (Lec-144) Useful Resources (Text File)
+
+7) WORKING WITH THE DOM IN JAVASCRIPT
 
 
 
-LECTURE 117
+
+
+
+LECTURE 129
 Build Calculator with logs
 Resume Builder
 Money Saver 
+Stone Paper Scissor game
 Download Code and resources at end of course
