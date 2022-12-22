@@ -242,13 +242,20 @@
     (Lec-144) Useful Resources (Text File)
 
 7) WORKING WITH THE DOM IN JAVASCRIPT
+    (Lec-145) Module Introduction
+            HTML, DOM & Javascript
+            Nodes & Elements
+            Querying DOM Nodes & Traversing the DOM 
+            Evaluating & Manipulating DOM Nodes
+            Creating & Removing DOM Nodes
+    (Lec-146) What's the DOM
 
 
 
 
 
 
-LECTURE 129
+LECTURE 146
 Build Calculator with logs
 Resume Builder
 Money Saver 
