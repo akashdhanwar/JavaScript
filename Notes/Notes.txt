@@ -249,7 +249,15 @@
             Evaluating & Manipulating DOM Nodes
             Creating & Removing DOM Nodes
     (Lec-146) What's the DOM
-
+            Loaded and Rendered Html code on Browser
+            document is the Root DOM Node which is present in global window object 
+    (Lec-147) Document & Window Object 
+    (Lec-148) Understanding the DOM and how it's created
+            Browser creates object(tree of nodes) of html tags
+            Nodes may be Element nodes(tags) or Text Nodes(Text data in between of tags)
+    (Lec-149) Nodes & Elements - Querying the DOM Overview
+            
+    
 
 
 
