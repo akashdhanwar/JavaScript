@@ -256,7 +256,44 @@
             Browser creates object(tree of nodes) of html tags
             Nodes may be Element nodes(tags) or Text Nodes(Text data in between of tags)
     (Lec-149) Nodes & Elements - Querying the DOM Overview
-            
+
+
+    ---------------------------------
+
+8) MORE ON ARRAYS AND ITERABLES
+    (Lec-183) Module Introduction 
+            Diferent ways of Creating Arrays
+            Work with Arrays - Deep Dive 
+            Important Array Methods
+            Other Iterables - Maps and Sets
+    (Lec-184) What is an Iterable and Array-Like Objects
+            Iterator is an object that implement the 'iterable' protocol and have an @@iterator method (i.e. Symbol.iterator)
+            Iterator is an object where we can use for-of loop
+            Not every iterable is an Array. Other iterables are NodeList, String, Map, Set
+            Array-like objects are objects that have a length property and uses indexes to access items
+            Not every Array-like object is an Array. Other Array-like are NodeList, String
+    (Lec-185) Creating Arrays
+            1-
+                const arr = [1,2]           
+                const arr = ['Hi']          
+            2- new keywork uses constructor function           
+                const arr = new Array(1,2)      -   [1,2] 
+                const arr = new Array(5)        -   []  Empty Array of size 5
+                const arr = new Array('Hi')     -   ['Hi']
+            3-
+                const arr = Array('Hi')         -   ['Hi']        
+                const arr = Array(1,2)          -   [1,2]        
+                const arr = Array(5)            -   Empty Array of size 5
+            4-
+                const arr = Array.of('Hi')      -   ['Hi']
+                const arr = Array.of(1,2)       -   [1,2]   
+            5- Takes iterable/Array-like object 
+               Used for splitting strings    
+               Convert NodeList to Array     
+                const arr = Array.from('Hi')    -   ['H','i']
+                const arr = Array.from(1)       -   []
+                const arr = Array.from(1,2)     -   Error
+    (Lec-186) 
     
 
 
