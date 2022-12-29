@@ -286,7 +286,8 @@
                 const arr = Array(5)            -   Empty Array of size 5
             4-
                 const arr = Array.of('Hi')      -   ['Hi']
-                const arr = Array.of(1,2)       -   [1,2]   
+                const arr = Array.of(1,2)       -   [1,2]                   
+                const arr = Array.of(2)         -   [2]   
             5- Takes iterable/Array-like object 
                Used for splitting strings    
                Convert NodeList to Array     
