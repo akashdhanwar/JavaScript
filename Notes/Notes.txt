@@ -294,7 +294,34 @@
                 const arr = Array.from('Hi')    -   ['H','i']
                 const arr = Array.from(1)       -   []
                 const arr = Array.from(1,2)     -   Error
-    (Lec-186) 
+    (Lec-186) Which data can you store in Arrays 
+            Numbers, Strings, Objects
+    (Lec-187) push(), pop(), unshift(), shift() - Adding and Removing Elements
+            push() - Adds element at end of array. Returns length of new Array
+            unshift() - Adds element at start of array. Returns length of new Array
+            pop() - Removes last element of Array . Returns deleted element
+            shift() - Removes first element of Array. Returns deleted element
+    (Lec-188) The splice() method
+            Insert elements in between of Array and Delete elements in between of Array, returns deleted elements
+            Works for negative index
+            Only available for Arrays and not for Iterables/Array-like Objects, hence we use from method to convert Iterables to Arrays
+            (startIndex, No. of elements to be deleted, Elements to be added at the index)
+    (Lec-189) Selecting Ranges & Creting copies with slice()
+            arr.slice() - Returns a new Array and hence copy old array to new
+            arr.slice(startIndex, endIndex) - Select specific ranges by passing start and end index
+            Returns copy of the Array
+            Works with negative index, but both should be negative else it returns empty array
+    (Lec-190) Adding Arrays to Arrays with concat()
+            Returns a new Array after concatenation
+    (Lec-191) Retrieving Indexes with indexOf() & lastIndexOf()
+            indexOf(searchElement, fromIndex) - Searches from start of Array, returns the first found index else returns -1
+            lastIndexOd(searchElement, fromIndex) - Searches from last of Array, returns the index else returns -1
+            Works only with Primitive values and not with objects 
+    (Lec-192) Finding Stuff: find() & findIndex()
+            
+
+
+            
     
 
 
